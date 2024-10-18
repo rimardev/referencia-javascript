@@ -105,3 +105,57 @@ En JavaScript, los operadores se utilizan para realizar operaciones en variables
    - `+=` (asignación y concatenación)
 
 ## CONDICIONALES
+En JavaScript, los condicionales permiten que el código tome decisiones en función de condiciones específicas. Los principales tipos de condicionales son:
+
+1. **`if`**:
+   Se utiliza para ejecutar un bloque de código si una condición es verdadera.
+   ```javascript
+   if (condición) {
+     // código a ejecutar si la condición es verdadera
+   }
+   ```
+
+2. **`if...else`**:
+   Se utiliza para ejecutar un bloque de código si la condición es verdadera, y otro bloque si es falsa.
+   ```javascript
+   if (condición) {
+     // código si la condición es verdadera
+   } else {
+     // código si la condición es falsa
+   }
+   ```
+
+3. **`else if`**:
+   Permite evaluar múltiples condiciones. Si una condición es verdadera, su bloque de código se ejecuta y el resto se ignora.
+   ```javascript
+   if (condición1) {
+     // código si condición1 es verdadera
+   } else if (condición2) {
+     // código si condición2 es verdadera
+   } else {
+     // código si ninguna de las condiciones es verdadera
+   }
+   ```
+
+4. **`switch`**:
+   Evalúa una expresión y ejecuta el bloque de código correspondiente al valor de la expresión.
+   ```javascript
+   switch (expresión) {
+     case valor1:
+       // código si la expresión es igual a valor1
+       break;
+     case valor2:
+       // código si la expresión es igual a valor2
+       break;
+     default:
+       // código si la expresión no coincide con ningún caso
+   }
+   ```
+
+5. **Operador Ternario (`? :`)**:
+   Es una forma corta de un `if...else`. Se usa para asignaciones rápidas en función de una condición.
+   ```javascript
+   condición ? expresiónSiVerdadero : expresiónSiFalso;
+   ```
+
+Estos son los principales tipos de condicionales que permiten controlar el flujo de un programa en JavaScript.
