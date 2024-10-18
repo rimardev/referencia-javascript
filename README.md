@@ -182,9 +182,7 @@ En JavaScript, existen varias formas de definir funciones, cada una con su propi
 3. **Funciones flecha (Arrow Functions)**:
    Introducidas en ES6, son más concisas y no vinculan su propio valor de `this`.
    ```javascript
-   const saludar = () => {
-     console.log("Hola");
-   };
+   const sumar = (a, b) => a + b;
    ```
 
 4. **Funciones anónimas**:
@@ -224,4 +222,4 @@ En JavaScript, existen varias formas de definir funciones, cada una con su propi
    }
    ```
 
-Cada tipo tiene sus ventajas según el caso de uso.
+Cada tipo tiene sus ventajas según el caso de uso. Pero las 3 Primeras son las más utilizadas en la mayoría de los escenarios.
