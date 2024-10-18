@@ -159,3 +159,69 @@ En JavaScript, los condicionales permiten que el código tome decisiones en func
    ```
 
 Estos son los principales tipos de condicionales que permiten controlar el flujo de un programa en JavaScript.
+
+## FUNCIONES
+En JavaScript, existen varias formas de definir funciones, cada una con su propia sintaxis. A continuación se detallan los tipos más comunes:
+
+1. **Declaración de función (Function Declaration)**:
+   Es la forma más tradicional de definir una función. Se puede llamar antes de que esté definida en el código debido al "hoisting".
+   ```javascript  
+   function sumar(a, b) {
+     return a + b;
+   };
+   ```
+  
+2. **Expresión de función (Function Expression)**:
+   Se define como una expresión dentro de una variable. No se puede invocar antes de que se defina.
+   ```javascript
+   const sumar = function(a, b) {
+     return a + b;
+   };
+   ```
+
+3. **Funciones flecha (Arrow Functions)**:
+   Introducidas en ES6, son más concisas y no vinculan su propio valor de `this`.
+   ```javascript
+   const saludar = () => {
+     console.log("Hola");
+   };
+   ```
+
+4. **Funciones anónimas**:
+   Son funciones sin nombre, que suelen usarse como argumentos de otras funciones.
+   ```javascript
+   setTimeout(function() {
+     console.log("Hola después de 2 segundos");
+   }, 2000);
+   ```
+
+5. **Funciones IIFE (Immediately Invoked Function Expression)**:
+   Son funciones que se ejecutan inmediatamente después de ser definidas.
+   ```javascript
+   (function() {
+     console.log("Esto se ejecuta inmediatamente");
+   })();
+   ```
+
+6. **Métodos dentro de objetos**:
+   Las funciones pueden ser propiedades de un objeto.
+   ```javascript
+   const objeto = {
+     saludar: function() {
+       console.log("Hola");
+     }
+   };
+   objeto.saludar();
+   ```
+
+7. **Funciones generadoras (Generator Functions)**:
+   Permiten pausar y reanudar la ejecución de la función mediante `yield`.
+   ```javascript
+   function* generador() {
+     yield 1;
+     yield 2;
+     yield 3;
+   }
+   ```
+
+Cada tipo tiene sus ventajas según el caso de uso.
