@@ -49,3 +49,59 @@ En JavaScript, las variables pueden almacenar diferentes tipos de datos. Aquí e
    - Ejemplo: `let numeroGrande = BigInt(9007199254740991);`
 
 Estos son los tipos básicos, aunque se pueden combinar y extender para casos más avanzados.
+
+## OPERADORES
+En JavaScript, los operadores se utilizan para realizar operaciones en variables y valores. Aquí están los principales tipos de operadores que te permiten manipular valores y realizar cálculos:
+
+1. **Operadores Aritméticos**: Realizan operaciones matemáticas.
+   - `+` (suma)
+   - `-` (resta)
+   - `*` (multiplicación)
+   - `/` (división)
+   - `%` (módulo)
+   - `++` (incremento)
+   - `--` (decremento)
+
+2. **Operadores de Asignación**: Asignan valores a las variables.
+   - `=` (asignación simple)
+   - `+=` (asignación y suma)
+   - `-=` (asignación y resta)
+   - `*=` (asignación y multiplicación)
+   - `/=` (asignación y división)
+   - `%=` (asignación y módulo)
+
+3. **Operadores de Comparación**: Comparan dos valores.
+   - `==` (igual a)
+   - `===` (estrictamente igual a)
+   - `!=` (no igual a)
+   - `!==` (estrictamente no igual a)
+   - `>` (mayor que)
+   - `<` (menor que)
+   - `>=` (mayor o igual que)
+   - `<=` (menor o igual que)
+
+4. **Operadores Lógicos**: Operan con valores booleanos.
+   - `&&` (AND lógico)
+   - `||` (OR lógico)
+   - `!` (NOT lógico)
+
+5. **Operadores Bit a Bit**: Trabajan a nivel de bits.
+   - `&` (AND bit a bit)
+   - `|` (OR bit a bit)
+   - `^` (XOR bit a bit)
+   - `~` (NOT bit a bit)
+   - `<<` (desplazamiento a la izquierda)
+   - `>>` (desplazamiento a la derecha)
+
+6. **Operadores de Tipo**: Determinan el tipo de un valor.
+   - `typeof` (tipo de)
+   - `instanceof` (instancia de)
+
+7. **Operador Ternario**: Es una forma abreviada de una declaración `if-else`.
+   - `condición ? expresión1 : expresión2`
+
+8. **Operadores de Cadena**: Operan sobre cadenas de texto.
+   - `+` (concatenación)
+   - `+=` (asignación y concatenación)
+
+## CONDICIONALES
