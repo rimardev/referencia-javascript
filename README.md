@@ -5,10 +5,18 @@
 En JavaScript, las variables pueden almacenar diferentes tipos de datos. Aquí están los principales tipos de variables:
 
 1. **Number**: Representa tanto números enteros como decimales.
-   - Ejemplo: `let num = 42;` o `let decimal = 3.14;`
+   - Ejemplo:
+     ```javascript
+     let num = 42;
+     let decimal = 3.14; //revizar este.
+     ```
 
 2. **String**: Cadenas de texto, encerradas entre comillas simples (`' '`), dobles (`" "`), o con backticks (`` ` ``).
-   - Ejemplo: `let texto = 'Hola';` o ``let saludo = `Hola, ${nombre}`;``
+   - Ejemplo:
+     ```javascript
+     let texto = 'Hola';
+     let saludo = `Hola, ${nombre}';
+     ```
 
 3. **Boolean**: Almacenan valores lógicos: `true` o `false`.
    - Ejemplo: `let esVerdad = true;`
