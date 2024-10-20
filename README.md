@@ -19,7 +19,10 @@ En JavaScript, las variables pueden almacenar diferentes tipos de datos. Aquí e
      ```
 
 3. **Boolean**: Almacenan valores lógicos: `true` o `false`.
-   - Ejemplo: `let esVerdad = true;`
+   - Ejemplo:
+     ```javascript
+     let esVerdad = true;
+     ```
 
 4. **Undefined**: El valor por defecto de una variable declarada pero no inicializada.
    - Ejemplo: `let variableSinValor; // undefined`
