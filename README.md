@@ -52,10 +52,16 @@ En JavaScript, las variables pueden almacenar diferentes tipos de datos. Aquí e
      ```
 
 8. **Symbol**: Representa un valor único y es utilizado para crear identificadores únicos para objetos.
-   - Ejemplo: `let simbolo = Symbol('descripcion');`
+   - Ejemplo:
+     ```javascript
+     let simbolo = Symbol('descripcion');
+     ```
 
 9. **BigInt**: Permite trabajar con números enteros más grandes que el límite de `Number`.
-   - Ejemplo: `let numeroGrande = BigInt(9007199254740991);`
+   - Ejemplo:
+     ```javascript
+     let numeroGrande = BigInt(9007199254740991);
+     ```
 
 Estos son los tipos básicos, aunque se pueden combinar y extender para casos más avanzados.
 
