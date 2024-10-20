@@ -25,10 +25,16 @@ En JavaScript, las variables pueden almacenar diferentes tipos de datos. Aquí e
      ```
 
 4. **Undefined**: El valor por defecto de una variable declarada pero no inicializada.
-   - Ejemplo: `let variableSinValor; // undefined`
+   - Ejemplo:
+     ```javascript
+     let variableSinValor; // undefined
+     ```
 
 5. **Null**: Representa la ausencia intencional de un valor.
-   - Ejemplo: `let valorNulo = null;`
+   - Ejemplo:
+     ```javascript
+     let valorNulo = null;
+     ```
 
 6. **Object**: Tipo complejo que puede almacenar colecciones de datos y más tipos de valores.
    - Ejemplo: 
