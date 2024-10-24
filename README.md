@@ -119,6 +119,33 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `+` (concatenación)
    - `+=` (asignación y concatenación)
 
+**NOTA: Operadores ++ y -- **
+
+La diferencia entre `variable++` y `++variable` radica en **CUANDO** se incrementa el valor de la `variable`:
+
+1. **`variable++` (Post-incremento)**: Primero se utiliza el valor actual de `variable`, y luego se incrementa. Es decir, se usa el valor de `variable` tal como está en la expresión y después se suma 1 a `variable`.
+
+   ```javascript
+   let a = 5;
+   let b = a++;  // b = 5, pero a = 6
+   ```
+
+   - Primero `b` toma el valor actual de `a` (5), y después `a` se incrementa a 6.
+
+2. **`++variable` (Pre-incremento)**: Primero se incrementa `variable`, y luego se utiliza el nuevo valor. Es decir, `variable` aumenta en 1 antes de usarse en la expresión.
+
+   ```javascript
+   let a = 5;
+   let b = ++a;  // a = 6, b = 6
+   ```
+
+   - Aquí, `a` se incrementa antes de asignar su valor a `b`.
+
+**Resumen:**
+- `variable++`: Incrementa **después** de utilizar el valor.
+- `++variable`: Incrementa **antes** de utilizar el valor.
+  
+
 ## CONDICIONALES
 En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones en función de condiciones específicas. Los principales tipos de condicionales son:
 
