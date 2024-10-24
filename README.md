@@ -238,3 +238,94 @@ En JavaScript, existen varias formas de definir funciones, cada una con su propi
    ```
 
 Cada tipo tiene sus ventajas según el caso de uso. Pero las 3 Primeras son las más utilizadas en la mayoría de los escenarios.
+
+## Bucles
+En JavaScript, los bucles permiten repetir un bloque de código varias veces hasta que se cumpla una condición específica. A continuación, te muestro los tipos de bucles más comunes:
+
+### 1. **`for`**
+El bucle `for` se utiliza cuando conoces el número de iteraciones por adelantado. Su estructura básica es:
+
+```javascript
+for (inicialización; condición; incremento) {
+  // Código a ejecutar en cada iteración
+}
+```
+
+**Ejemplo:**
+```javascript
+for (let i = 0; i < 5; i++) {
+  console.log(i);  // Imprime 0, 1, 2, 3, 4
+}
+```
+
+### 2. **`while`**
+El bucle `while` se utiliza cuando no sabes cuántas veces necesitas iterar, pero quieres repetir el bloque mientras se cumpla una condición.
+
+```javascript
+while (condición) {
+  // Código a ejecutar mientras la condición sea verdadera
+}
+```
+
+**Ejemplo:**
+```javascript
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+```
+
+### 3. **`do...while`**
+El bucle `do...while` es similar al `while`, pero garantiza que el bloque de código se ejecute al menos una vez antes de verificar la condición.
+
+```javascript
+do {
+  // Código a ejecutar
+} while (condición);
+```
+
+**Ejemplo:**
+```javascript
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+```
+
+### 4. **`for...in`**
+Se utiliza para iterar sobre las propiedades enumerables de un objeto.
+
+```javascript
+for (let propiedad in objeto) {
+  // Código a ejecutar en cada iteración
+}
+```
+
+**Ejemplo:**
+```javascript
+const objeto = { nombre: "Juan", edad: 30 };
+for (let clave in objeto) {
+  console.log(clave + ": " + objeto[clave]);
+}
+```
+
+### 5. **`for...of`**
+Se utiliza para iterar sobre valores de objetos iterables como arrays, mapas, conjuntos, etc.
+
+```javascript
+for (let valor of iterable) {
+  // Código a ejecutar en cada iteración
+}
+```
+
+**Ejemplo:**
+```javascript
+const array = [10, 20, 30];
+for (let valor of array) {
+  console.log(valor);
+}
+```
+
+Cada bucle tiene su uso particular dependiendo de lo que quieras hacer, como recorrer listas, objetos o realizar acciones repetitivas mientras una condición se mantenga verdadera.
