@@ -119,7 +119,7 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `+` (concatenación)
    - `+=` (asignación y concatenación)
 
-**NOTA: Operadores ++ y -- **
+**NOTA OPERADORES**: ++ y --
 
 La diferencia entre `variable++` y `++variable` radica en **CUANDO** se incrementa el valor de la `variable`:
 
