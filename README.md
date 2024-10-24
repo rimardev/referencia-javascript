@@ -239,7 +239,7 @@ En JavaScript, existen varias formas de definir funciones, cada una con su propi
 
 Cada tipo tiene sus ventajas según el caso de uso. Pero las 3 Primeras son las más utilizadas en la mayoría de los escenarios.
 
-## Bucles
+## BUCLES
 En JavaScript, los bucles permiten repetir un bloque de código varias veces hasta que se cumpla una condición específica. A continuación, te muestro los tipos de bucles más comunes:
 
 ### 1. **`for`**
