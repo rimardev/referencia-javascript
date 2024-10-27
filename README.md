@@ -328,7 +328,7 @@ for (let propiedad in objeto) {
 
 **Ejemplo:**
 ```javascript
-const objeto = { nombre: "Juan", edad: 30 };
+const objeto = { nombre: "Juan", edad: 30,  sexo: "masculino"};
 for (let clave in objeto) {
   console.log(clave + ": " + objeto[clave]);
 }
