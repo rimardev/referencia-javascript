@@ -344,8 +344,8 @@ for (let valor of iterable) {
 
 **Ejemplo:**
 ```javascript
-const array = [10, 20, 30];
-for (let valor of array) {
+const numeros = [10, 20, 30];
+for (let numero of numeros) {
   console.log(valor);
 }
 ```
