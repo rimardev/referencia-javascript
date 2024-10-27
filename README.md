@@ -269,7 +269,7 @@ Cada tipo tiene sus ventajas según el caso de uso. Pero las 3 Primeras son las 
 ## BUCLES
 En JavaScript, los Bucles se Utilzan para repetir un bloque de código varias veces hasta que se cumpla una Condición Específica. A continuación, te muestro los tipos de bucles más comunes:
 
-1. El Bucle `for` se utiliza cuando conoces el número de iteraciones por adelantado. Su estructura básica es:
+1. El Bucle `for` se utiliza cuando CONOCES el número de iteraciones por adelantado. Su estructura básica es:
 
 ```javascript
 for (inicialización; condición; incremento) {
@@ -284,7 +284,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-2. El Bucle `while` se utiliza cuando no sabes cuántas veces necesitas iterar, pero quieres repetir el bloque mientras se cumpla una condición.
+2. El Bucle `while` se utiliza cuando NO sabes cuántas veces necesitas iterar, pero quieres repetir el bloque mientras se cumpla una condición.
 
 ```javascript
 while (condición) {
