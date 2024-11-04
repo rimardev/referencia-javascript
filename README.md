@@ -368,7 +368,7 @@ En el ejemplo anterior:
 - `"plátano"` está en el índice `1`.
 - `"naranja"` está en el índice `2`.
 
-### Características clave de los arrays en JavaScript:
+**Características clave de los arrays en JavaScript:**
 
 1. **Longitud dinámica**: Los arrays pueden crecer y reducir su tamaño automáticamente. Puedes agregar o eliminar elementos en cualquier momento.
 2. **Métodos útiles**: Los arrays en JavaScript incluyen métodos como `push`, `pop`, `shift`, `unshift`, `forEach`, `map`, `filter`, entre otros, que permiten manipular y recorrer los elementos de manera sencilla.
