@@ -354,3 +354,25 @@ Cada bucle tiene su uso particular dependiendo de lo que quieras hacer, como rec
 
 ## ARRAY
 
+En JavaScript, un **array** (o **arreglo**) es una estructura de datos que permite almacenar una colección de elementos en una sola variable. Los arrays pueden contener múltiples tipos de datos, como números, strings, objetos, e incluso otros arrays. Cada elemento en un array tiene una posición específica llamada **índice**, que comienza en 0 para el primer elemento, 1 para el segundo, y así sucesivamente.
+
+### Ejemplo básico de un array en JavaScript:
+```javascript
+let frutas = ["manzana", "plátano", "naranja"];
+console.log(frutas[0]); // Salida: "manzana"
+```
+
+En el ejemplo anterior:
+
+- `"manzana"` está en el índice `0`.
+- `"plátano"` está en el índice `1`.
+- `"naranja"` está en el índice `2`.
+
+### Características clave de los arrays en JavaScript:
+
+1. **Longitud dinámica**: Los arrays pueden crecer y reducir su tamaño automáticamente. Puedes agregar o eliminar elementos en cualquier momento.
+2. **Métodos útiles**: Los arrays en JavaScript incluyen métodos como `push`, `pop`, `shift`, `unshift`, `forEach`, `map`, `filter`, entre otros, que permiten manipular y recorrer los elementos de manera sencilla.
+3. **Heterogeneidad**: Puedes almacenar diferentes tipos de datos en el mismo array, aunque es una práctica poco común.
+
+
+Los arrays son esenciales para trabajar con colecciones de datos y realizar operaciones en JavaScript, especialmente en casos donde se necesita almacenar múltiples elementos relacionados.
