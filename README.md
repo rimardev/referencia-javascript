@@ -376,3 +376,14 @@ En el ejemplo anterior:
 
 
 Los arrays son esenciales para trabajar con colecciones de datos y realizar operaciones en JavaScript, especialmente en casos donde se necesita almacenar múltiples elementos relacionados.
+
+**Diferencia entre Propiedades y Métodos en Arrays**
+
+Propiedades:
+- Son valores asociados al array que describen alguna característica de él.
+- Las propiedades no ejecutan ninguna acción; simplemente proporcionan información sobre el array.
+
+Métodos:
+- Son funciones que están asociadas a un array y que permiten realizar una acción o manipular el array.
+- Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
+
