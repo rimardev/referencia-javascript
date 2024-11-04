@@ -389,16 +389,16 @@ Métodos:
 
 ¡Me alegra saber que la explicación y la tabla fueron útiles! Aquí tienes dos tablas separadas: una para las propiedades y otra para los métodos de los arrays en JavaScript.
 
-### Propiedades de Arrays en JavaScript
+## Propiedades de Arrays en JavaScript
 
 | Propiedad | Descripción                                                                                     |
 |-----------|-------------------------------------------------------------------------------------------------|
-| `.length` | Devuelve el número de elementos en el array.                                                    |
+| `.length` | Devuelve la cantidad de elementos en el array.                                                    |
 | `[índice]`| Acceso a un elemento específico mediante su índice, por ejemplo `array[0]` para el primer elemento.|
 
 > **Nota**: No hay muchas propiedades en los arrays; `.length` es la principal y más utilizada.
 
-### Métodos de Arrays en JavaScript
+## Métodos de Arrays en JavaScript
 
 | Método          | Descripción                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------|
