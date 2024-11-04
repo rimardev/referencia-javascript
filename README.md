@@ -351,3 +351,6 @@ for (let numero of numeros) {
 ```
 
 Cada bucle tiene su uso particular dependiendo de lo que quieras hacer, como recorrer listas, objetos o realizar acciones repetitivas mientras una condición se mantenga verdadera.
+
+## ARRAY
+
