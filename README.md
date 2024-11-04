@@ -356,7 +356,7 @@ Cada bucle tiene su uso particular dependiendo de lo que quieras hacer, como rec
 
 En JavaScript, un **array** (o **arreglo**) es una estructura de datos que permite almacenar una colección de elementos en una sola variable. Los arrays pueden contener múltiples tipos de datos, como números, strings, objetos, e incluso otros arrays. Cada elemento en un array tiene una posición específica llamada **índice**, que comienza en 0 para el primer elemento, 1 para el segundo, y así sucesivamente.
 
-### Ejemplo básico de un array en JavaScript:
+**Ejemplo básico de un array en JavaScript:**
 ```javascript
 let frutas = ["manzana", "plátano", "naranja"];
 console.log(frutas[0]); // Salida: "manzana"
