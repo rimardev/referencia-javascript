@@ -377,7 +377,7 @@ En el ejemplo anterior:
 
 Los arrays son esenciales para trabajar con colecciones de datos y realizar operaciones en JavaScript, especialmente en casos donde se necesita almacenar múltiples elementos relacionados.
 
-**Diferencia entre Propiedades y Métodos en Arrays**
+**Diferencia entre Propiedades y Métodos en Arrays:**
 
 Propiedades:
 - Son valores asociados al array que describen alguna característica de él.
@@ -386,4 +386,44 @@ Propiedades:
 Métodos:
 - Son funciones que están asociadas a un array y que permiten realizar una acción o manipular el array.
 - Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
+
+¡Me alegra saber que la explicación y la tabla fueron útiles! Aquí tienes dos tablas separadas: una para las propiedades y otra para los métodos de los arrays en JavaScript.
+
+### Propiedades de Arrays en JavaScript
+
+| Propiedad | Descripción                                                                                     |
+|-----------|-------------------------------------------------------------------------------------------------|
+| `.length` | Devuelve el número de elementos en el array.                                                    |
+| `[índice]`| Acceso a un elemento específico mediante su índice, por ejemplo `array[0]` para el primer elemento.|
+
+> **Nota**: No hay muchas propiedades en los arrays; `.length` es la principal y más utilizada.
+
+### Métodos de Arrays en JavaScript
+
+| Método          | Descripción                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------|
+| `.push()`       | Agrega uno o más elementos al final del array y devuelve la nueva longitud del array.                         |
+| `.pop()`        | Elimina el último elemento del array y lo devuelve.                                                           |
+| `.shift()`      | Elimina el primer elemento del array y lo devuelve.                                                           |
+| `.unshift()`    | Agrega uno o más elementos al inicio del array y devuelve la nueva longitud del array.                        |
+| `.forEach()`    | Ejecuta una función en cada elemento del array (no devuelve un nuevo array).                                  |
+| `.map()`        | Crea un nuevo array con los resultados de aplicar una función a cada elemento del array.                      |
+| `.filter()`     | Crea un nuevo array con todos los elementos que cumplen una condición dada.                                   |
+| `.reduce()`     | Aplica una función a cada elemento (de izquierda a derecha) para reducirlo a un único valor acumulado.        |
+| `.find()`       | Devuelve el primer elemento que cumple una condición dada, o `undefined` si no lo encuentra.                  |
+| `.findIndex()`  | Devuelve el índice del primer elemento que cumple una condición dada, o `-1` si no lo encuentra.              |
+| `.includes()`   | Devuelve `true` si un elemento existe en el array; de lo contrario, devuelve `false`.                         |
+| `.indexOf()`    | Devuelve el índice de la primera aparición de un elemento; devuelve `-1` si no está en el array.              |
+| `.lastIndexOf()`| Devuelve el índice de la última aparición de un elemento; devuelve `-1` si no está en el array.               |
+| `.some()`       | Devuelve `true` si al menos un elemento cumple una condición dada; de lo contrario, devuelve `false`.         |
+| `.every()`      | Devuelve `true` si todos los elementos cumplen una condición dada; de lo contrario, devuelve `false`.         |
+| `.concat()`     | Combina dos o más arrays y devuelve un nuevo array resultante.                                                |
+| `.join()`       | Une todos los elementos del array en una cadena, separándolos por un delimitador especificado.                |
+| `.slice()`      | Devuelve una copia de una parte del array sin modificar el array original.                                    |
+| `.splice()`     | Añade o elimina elementos en el array y modifica el array original.                                           |
+| `.reverse()`    | Invierte el orden de los elementos en el array (modifica el array original).                                  |
+| `.sort()`       | Ordena los elementos del array según una función de comparación (modifica el array original).                 |
+| `.fill()`       | Llena los elementos de un array con un valor estático desde un índice de inicio hasta uno de final.           |
+| `.flat()`       | Devuelve un nuevo array con todos los sub-arrays concatenados en él hasta una profundidad especificada.       |
+| `.flatMap()`    | Aplica una función a cada elemento y aplana el resultado en un nuevo array.                                   |
 
