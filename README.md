@@ -388,7 +388,7 @@ Métodos:
 - Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
 
 
-### Propiedades de Arrays en JavaScript
+### Resumen Propiedades de Arrays
 
 | Propiedad | Descripción                                                                                     |
 |-----------|-------------------------------------------------------------------------------------------------|
@@ -397,7 +397,7 @@ Métodos:
 
 > **Nota**: No hay muchas propiedades en los arrays; `.length` es la principal y más utilizada.
 
-### Métodos de Arrays en JavaScript
+### Resumen Métodos de Arrays
 
 | Método          | Descripción                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------|
