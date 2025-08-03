@@ -426,7 +426,7 @@ Métodos:
 | `.flat()`       | Devuelve un nuevo array con todos los sub-arrays concatenados en él hasta una profundidad especificada.       |
 | `.flatMap()`    | Aplica una función a cada elemento y aplana el resultado en un nuevo array.                                   |
 
-# Manipulación del DOM
+# DOM
 
 El DOM (Document Object Model) es una representación en forma de árbol de los elementos de un documento HTML. JavaScript permite manipular este DOM para modificar dinámicamente el contenido, estructura y estilo de una página web.
 
