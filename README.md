@@ -426,3 +426,179 @@ Métodos:
 | `.flat()`       | Devuelve un nuevo array con todos los sub-arrays concatenados en él hasta una profundidad especificada.       |
 | `.flatMap()`    | Aplica una función a cada elemento y aplana el resultado en un nuevo array.                                   |
 
+# Manipulación del DOM
+
+El DOM (Document Object Model) es una representación en forma de árbol de los elementos de un documento HTML. JavaScript permite manipular este DOM para modificar dinámicamente el contenido, estructura y estilo de una página web.
+
+## Métodos básicos para seleccionar elementos
+
+### Selección por ID
+```javascript
+const elemento = document.getElementById('miId');
+```
+
+### Selección por clase
+```javascript
+const elementos = document.getElementsByClassName('miClase');
+```
+
+### Selección por etiqueta
+```javascript
+const elementos = document.getElementsByTagName('div');
+```
+
+### Selección con selectores CSS
+```javascript
+// Selecciona el primer elemento que coincida
+const elemento = document.querySelector('.miClase');
+
+// Selecciona todos los elementos que coincidan
+const elementos = document.querySelectorAll('div.miClase');
+```
+
+## Manipulación de contenido
+
+### Cambiar contenido HTML
+```javascript
+elemento.innerHTML = '<strong>Nuevo contenido</strong>';
+```
+
+### Cambiar texto
+```javascript
+elemento.textContent = 'Nuevo texto';
+```
+
+### Cambiar atributos
+```javascript
+elemento.setAttribute('atributo', 'valor');
+const valor = elemento.getAttribute('atributo');
+elemento.removeAttribute('atributo');
+```
+
+## Manipulación de clases CSS
+
+### Añadir clase
+```javascript
+elemento.classList.add('nuevaClase');
+```
+
+### Eliminar clase
+```javascript
+elemento.classList.remove('claseExistente');
+```
+
+### Alternar clase
+```javascript
+elemento.classList.toggle('clase');
+```
+
+### Comprobar si tiene clase
+```javascript
+if (elemento.classList.contains('clase')) {
+  // Hacer algo
+}
+```
+
+## Creación y eliminación de elementos
+
+### Crear elemento
+```javascript
+const nuevoElemento = document.createElement('div');
+```
+
+### Añadir elemento al DOM
+```javascript
+// Al final de un elemento padre
+elementoPadre.appendChild(nuevoElemento);
+
+// En una posición específica
+elementoPadre.insertBefore(nuevoElemento, elementoReferencia);
+```
+
+### Eliminar elemento
+```javascript
+elementoPadre.removeChild(elemento);
+```
+
+## Manipulación de estilos
+
+### Cambiar estilos directamente
+```javascript
+elemento.style.propiedad = 'valor';
+// Ejemplo:
+elemento.style.color = 'red';
+elemento.style.backgroundColor = '#f0f0f0';
+```
+
+### Obtener estilos computados
+```javascript
+const estilos = window.getComputedStyle(elemento);
+const color = estilos.getPropertyValue('color');
+```
+
+## Eventos del DOM
+
+### Añadir event listener
+```javascript
+elemento.addEventListener('click', function(event) {
+  console.log('Elemento clickeado!', event);
+});
+```
+
+### Eliminar event listener
+```javascript
+function manejarClick() {
+  console.log('Click');
+}
+
+elemento.addEventListener('click', manejarClick);
+// Más tarde...
+elemento.removeEventListener('click', manejarClick);
+```
+
+## Ejemplo completo
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulación del DOM</title>
+  <style>
+    .resaltado {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="contenedor">
+    <p class="texto">Haz clic en este párrafo</p>
+    <button id="boton">Añadir elemento</button>
+  </div>
+
+  <script>
+    // Seleccionar elementos
+    const parrafo = document.querySelector('.texto');
+    const boton = document.getElementById('boton');
+    const contenedor = document.getElementById('contenedor');
+
+    // Añadir evento al párrafo
+    parrafo.addEventListener('click', function() {
+      this.classList.toggle('resaltado');
+    });
+
+    // Añadir evento al botón
+    boton.addEventListener('click', function() {
+      // Crear nuevo elemento
+      const nuevoElemento = document.createElement('p');
+      nuevoElemento.textContent = 'Nuevo párrafo añadido';
+      
+      // Añadir al contenedor
+      contenedor.appendChild(nuevoElemento);
+    });
+  </script>
+</body>
+</html>
+```
+
+La manipulación del DOM es fundamental para crear páginas web dinámicas e interactivas. Con estos métodos básicos puedes comenzar a modificar páginas web según las interacciones del usuario o eventos del sistema.
