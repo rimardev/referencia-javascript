@@ -387,6 +387,157 @@ Métodos:
 - Son funciones que están asociadas a un array y que permiten realizar una acción o manipular el array.
 - Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
 
+# Métodos y Propiedades de Arrays en JavaScript
+
+Los arrays en JavaScript son objetos que permiten almacenar múltiples valores en una sola variable. Tienen numerosos métodos y propiedades incorporados para manipularlos.
+
+## Propiedades principales
+
+1. **length**: Devuelve el número de elementos en el array.
+   ```javascript
+   const frutas = ['manzana', 'banana', 'naranja'];
+   console.log(frutas.length); // 3
+   ```
+
+## Métodos principales
+
+### Métodos para agregar/eliminar elementos
+
+1. **push()**: Añade uno o más elementos al final del array.
+   ```javascript
+   frutas.push('kiwi');
+   ```
+
+2. **pop()**: Elimina el último elemento del array y lo devuelve.
+   ```javascript
+   const ultimo = frutas.pop();
+   ```
+
+3. **unshift()**: Añade uno o más elementos al inicio del array.
+   ```javascript
+   frutas.unshift('fresa');
+   ```
+
+4. **shift()**: Elimina el primer elemento del array y lo devuelve.
+   ```javascript
+   const primero = frutas.shift();
+   ```
+
+### Métodos para buscar y seleccionar
+
+5. **indexOf()**: Devuelve el primer índice donde se encuentra un elemento.
+   ```javascript
+   const pos = frutas.indexOf('banana');
+   ```
+
+6. **includes()**: Determina si el array contiene un elemento.
+   ```javascript
+   const tieneBanana = frutas.includes('banana');
+   ```
+
+7. **find()**: Devuelve el primer elemento que cumple una condición.
+   ```javascript
+   const num = [5, 12, 8, 130, 44];
+   const encontrado = num.find(elemento => elemento > 10);
+   ```
+
+8. **filter()**: Crea un nuevo array con elementos que cumplen una condición.
+   ```javascript
+   const filtrados = num.filter(elemento => elemento > 10);
+   ```
+
+### Métodos para transformar el array
+
+9. **map()**: Crea un nuevo array aplicando una función a cada elemento.
+   ```javascript
+   const dobles = num.map(x => x * 2);
+   ```
+
+10. **reduce()**: Ejecuta una función reductora sobre cada elemento.
+    ```javascript
+    const suma = num.reduce((acumulador, valor) => acumulador + valor, 0);
+    ```
+
+11. **sort()**: Ordena los elementos del array.
+    ```javascript
+    frutas.sort();
+    ```
+
+12. **reverse()**: Invierte el orden de los elementos.
+    ```javascript
+    frutas.reverse();
+    ```
+
+### Métodos para manipular arrays
+
+13. **concat()**: Combina dos o más arrays.
+    ```javascript
+    const vegetales = ['zanahoria', 'papa'];
+    const comida = frutas.concat(vegetales);
+    ```
+
+14. **slice()**: Devuelve una copia superficial de una porción del array.
+    ```javascript
+    const algunos = frutas.slice(1, 3);
+    ```
+
+15. **splice()**: Cambia el contenido eliminando/reemplazando elementos.
+    ```javascript
+    frutas.splice(1, 0, 'mango'); // Añade mango en la posición 1
+    ```
+
+16. **join()**: Une todos los elementos en un string.
+    ```javascript
+    const strFrutas = frutas.join(', ');
+    ```
+
+### Métodos de iteración
+
+17. **forEach()**: Ejecuta una función por cada elemento.
+    ```javascript
+    frutas.forEach(fruta => console.log(fruta));
+    ```
+
+18. **some()**: Comprueba si al menos un elemento cumple una condición.
+    ```javascript
+    const hayGrandes = num.some(x => x > 100);
+    ```
+
+19. **every()**: Comprueba si todos los elementos cumplen una condición.
+    ```javascript
+    const todosGrandes = num.every(x => x > 10);
+    ```
+
+### Métodos modernos (ES6+)
+
+20. **findIndex()**: Similar a find() pero devuelve el índice.
+    ```javascript
+    const indice = num.findIndex(x => x > 10);
+    ```
+
+21. **flat()**: "Aplana" arrays anidados.
+    ```javascript
+    const anidado = [1, [2, 3], [4, [5]]];
+    const plano = anidado.flat(2);
+    ```
+
+22. **flatMap()**: Combina map() y flat().
+    ```javascript
+    const resultado = num.flatMap(x => [x, x * 2]);
+    ```
+
+23. **Array.from()**: Crea un array a partir de un objeto iterable.
+    ```javascript
+    const arrayDeString = Array.from('Hola');
+    ```
+
+24. **Array.isArray()**: Determina si un valor es un array.
+    ```javascript
+    Array.isArray(frutas); // true
+    ```
+
+Estos métodos proporcionan una gran flexibilidad para trabajar con arrays en JavaScript, permitiendo manipular datos de manera eficiente y con código más legible.
+
 
 ### Resumen Propiedades de Arrays
 
