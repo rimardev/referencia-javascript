@@ -432,9 +432,6 @@ Métodos:
 - Son funciones que están asociadas a un array y que permiten realizar una acción o manipular el array.
 - Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
 
-## Métodos y Propiedades de Arrays en JavaScript
-
-Los arrays en JavaScript son objetos que permiten almacenar múltiples valores en una sola variable. Tienen numerosos métodos y propiedades incorporados para manipularlos.
 
 ## Propiedades principales
 
