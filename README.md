@@ -188,7 +188,7 @@ La diferencia entre `variable++` y `++variable` radica en **CUANDO** se incremen
 ## CONDICIONALES
 En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones en función de condiciones específicas. Los principales tipos de condicionales son:
 
-1. **`if`**:
+### 1. **`if`**:
    Se utiliza para ejecutar un bloque de código si una condición es verdadera.
    ```javascript
    if (condición) {
@@ -196,7 +196,7 @@ En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones
    }
    ```
 
-2. **`if...else`**:
+### 2. **`if...else`**:
    Se utiliza para ejecutar un bloque de código si la condición es verdadera, y otro bloque si es falsa.
    ```javascript
    if (condición) {
@@ -206,7 +206,7 @@ En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones
    }
    ```
 
-3. **`else if`**:
+### 3. **`else if`**:
    Permite evaluar múltiples condiciones. Si una condición es verdadera, su bloque de código se ejecuta y el resto se ignora.
    ```javascript
    if (condición1) {
@@ -218,7 +218,7 @@ En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones
    }
    ```
 
-4. **`switch`**:
+### 4. **`switch`**:
    Evalúa una expresión y ejecuta el bloque de código correspondiente al valor de la expresión.
    ```javascript
    switch (expresión) {
@@ -233,7 +233,7 @@ En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones
    }
    ```
 
-5. **Operador Ternario (`? :`)**:
+### 5. **Operador Ternario (`? :`)**:
    Es una forma corta de un `if...else`. Se usa para asignaciones rápidas en función de una condición.
    ```javascript
    condición ? expresiónSiVerdadero : expresiónSiFalso;
