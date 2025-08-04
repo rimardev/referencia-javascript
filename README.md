@@ -2,7 +2,35 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
 
 ## VARIABLES
-En JavaScript, las Variables se Utilizan para almacenar diferentes Tipos de Datos. Aquí están los principales tipos de variables:
+En JavaScript, las variables son contenedores para almacenar datos. Hay tres formas de declarar variables:
+
+### 1. `var` (vieja manera, ámbito de función)
+```javascript
+var nombre = "Juan";
+var edad = 30;
+```
+
+### 2. `let` (moderna, ámbito de bloque)
+```javascript
+let apellido = "Pérez";
+let altura = 1.75;
+```
+
+### 3. `const` (constante, no se puede reasignar)
+```javascript
+const PI = 3.1416;
+const URL_API = "https://api.ejemplo.com";
+```
+
+### Diferencias clave:
+- `var` tiene scope de función y sufre de "hoisting"
+- `let` y `const` tienen scope de bloque
+- `const` no puede ser reasignada, pero sus propiedades pueden cambiar si es un objeto
+
+*****************************************************************************************************************************
+
+## TIPOS DE DATOS
+En JavaScript, las Variables se Utilizan para almacenar diferentes Tipos de Datos. Aquí están los principales Tipos de Datos:
 
 1. **Number**: Representa tanto números enteros como decimales.
    - Ejemplo:
@@ -64,6 +92,8 @@ En JavaScript, las Variables se Utilizan para almacenar diferentes Tipos de Dato
      ```
 
 Estos son los tipos básicos, aunque se pueden combinar y extender para casos más avanzados.
+
+****************************************************************************************************************************
 
 ## OPERADORES
 En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables y Valores. Aquí están los principales tipos de operadores que te permiten manipular valores y realizar cálculos:
@@ -144,7 +174,8 @@ La diferencia entre `variable++` y `++variable` radica en **CUANDO** se incremen
 **Resumen:**
 - `variable++`: Incrementa **después** de utilizar el valor.
 - `++variable`: Incrementa **antes** de utilizar el valor.
-  
+
+**************************************************************************************************************************
 
 ## CONDICIONALES
 En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones en función de condiciones específicas. Los principales tipos de condicionales son:
@@ -201,6 +232,8 @@ En JavaScript, los Condicionales se Utilizan para que el Código Tome Decisiones
    ```
 
 Estos son los principales tipos de condicionales que permiten controlar el flujo de un programa en JavaScript.
+
+*************************************************************************************************************************
 
 ## FUNCIONES
 En JavaScript, las funciones son Bloques de Código Reutilizables que permiten realizar una tarea específica. Se utilizan para organizar el código, evitar la repetición y facilitar su mantenimiento. existen varias formas de definir funciones, cada una con su propia sintaxis. A continuación se detallan los tipos más comunes:
@@ -265,6 +298,8 @@ En JavaScript, las funciones son Bloques de Código Reutilizables que permiten r
    ```
 
 Cada tipo tiene sus ventajas según el caso de uso. Pero las 3 Primeras son las más utilizadas en la mayoría de los escenarios.
+
+********************************************************************************************************************************
 
 ## BUCLES
 En JavaScript, los Bucles se Utilzan para repetir un bloque de código varias veces hasta que se cumpla una Condición Específica. A continuación, te muestro los tipos de bucles más comunes:
@@ -352,6 +387,8 @@ for (let numero of numeros) {
 
 Cada bucle tiene su uso particular dependiendo de lo que quieras hacer, como recorrer listas, objetos o realizar acciones repetitivas mientras una condición se mantenga verdadera.
 
+***************************************************************************************************************************
+
 ## ARRAY
 
 En JavaScript, un **array** (o **arreglo**) es una estructura de datos que permite almacenar una colección de elementos en una sola variable. Los arrays pueden contener múltiples tipos de datos, como números, strings, objetos, e incluso otros arrays. Cada elemento en un array tiene una posición específica llamada **índice**, que comienza en 0 para el primer elemento, 1 para el segundo, y así sucesivamente.
@@ -387,7 +424,7 @@ Métodos:
 - Son funciones que están asociadas a un array y que permiten realizar una acción o manipular el array.
 - Los métodos se invocan con paréntesis porque son funciones, mientras que las propiedades no.
 
-# Métodos y Propiedades de Arrays en JavaScript
+## Métodos y Propiedades de Arrays en JavaScript
 
 Los arrays en JavaScript son objetos que permiten almacenar múltiples valores en una sola variable. Tienen numerosos métodos y propiedades incorporados para manipularlos.
 
