@@ -108,7 +108,8 @@ Realizan operaciones matemáticas.
    - `++` (incremento)
    - `--` (decremento)
 
-### 2. **Operadores de Asignación**: Asignan valores a las variables.
+### 2. **Operadores de Asignación**
+Asignan valores a las variables.
    - `=` (asignación simple)
    - `+=` (asignación y suma)
    - `-=` (asignación y resta)
@@ -116,7 +117,8 @@ Realizan operaciones matemáticas.
    - `/=` (asignación y división)
    - `%=` (asignación y módulo)
 
-### 3. **Operadores de Comparación**: Comparan dos valores.
+### 3. **Operadores de Comparación**
+Comparan dos valores.
    - `==` (igual a)
    - `===` (estrictamente igual a)
    - `!=` (no igual a)
@@ -126,12 +128,14 @@ Realizan operaciones matemáticas.
    - `>=` (mayor o igual que)
    - `<=` (menor o igual que)
 
-### 4. **Operadores Lógicos**: Operan con valores booleanos.
+### 4. **Operadores Lógicos**
+Operan con valores booleanos.
    - `&&` (AND lógico)
    - `||` (OR lógico)
    - `!` (NOT lógico)
 
-### 5. **Operadores Bit a Bit**: Trabajan a nivel de bits.
+### 5. **Operadores Bit a Bit**
+Trabajan a nivel de bits.
    - `&` (AND bit a bit)
    - `|` (OR bit a bit)
    - `^` (XOR bit a bit)
@@ -139,14 +143,17 @@ Realizan operaciones matemáticas.
    - `<<` (desplazamiento a la izquierda)
    - `>>` (desplazamiento a la derecha)
 
-### 6. **Operadores de Tipo**: Determinan el tipo de un valor.
+### 6. **Operadores de Tipo**
+Determinan el tipo de un valor.
    - `typeof` (tipo de)
    - `instanceof` (instancia de)
 
-### 7. **Operador Ternario**: Es una forma abreviada de una declaración `if-else`.
+### 7. **Operador Ternario**
+Es una forma abreviada de una declaración `if-else`.
    - `condición ? expresión1 : expresión2`
 
-### 8. **Operadores de Cadena**: Operan sobre cadenas de texto.
+### 8. **Operadores de Cadena**
+Operan sobre cadenas de texto.
    - `+` (concatenación)
    - `+=` (asignación y concatenación)
 
