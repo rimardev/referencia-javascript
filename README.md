@@ -98,7 +98,7 @@ Estos son los tipos básicos, aunque se pueden combinar y extender para casos m�
 ## OPERADORES
 En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables y Valores. Aquí están los principales tipos de operadores que te permiten manipular valores y realizar cálculos:
 
-1. **Operadores Aritméticos**: Realizan operaciones matemáticas.
+### 1. **Operadores Aritméticos**: Realizan operaciones matemáticas.
    - `+` (suma)
    - `-` (resta)
    - `*` (multiplicación)
@@ -107,7 +107,7 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `++` (incremento)
    - `--` (decremento)
 
-2. **Operadores de Asignación**: Asignan valores a las variables.
+### 2. **Operadores de Asignación**: Asignan valores a las variables.
    - `=` (asignación simple)
    - `+=` (asignación y suma)
    - `-=` (asignación y resta)
@@ -115,7 +115,7 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `/=` (asignación y división)
    - `%=` (asignación y módulo)
 
-3. **Operadores de Comparación**: Comparan dos valores.
+### 3. **Operadores de Comparación**: Comparan dos valores.
    - `==` (igual a)
    - `===` (estrictamente igual a)
    - `!=` (no igual a)
@@ -125,12 +125,12 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `>=` (mayor o igual que)
    - `<=` (menor o igual que)
 
-4. **Operadores Lógicos**: Operan con valores booleanos.
+### 4. **Operadores Lógicos**: Operan con valores booleanos.
    - `&&` (AND lógico)
    - `||` (OR lógico)
    - `!` (NOT lógico)
 
-5. **Operadores Bit a Bit**: Trabajan a nivel de bits.
+### 5. **Operadores Bit a Bit**: Trabajan a nivel de bits.
    - `&` (AND bit a bit)
    - `|` (OR bit a bit)
    - `^` (XOR bit a bit)
@@ -138,18 +138,18 @@ En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables
    - `<<` (desplazamiento a la izquierda)
    - `>>` (desplazamiento a la derecha)
 
-6. **Operadores de Tipo**: Determinan el tipo de un valor.
+### 6. **Operadores de Tipo**: Determinan el tipo de un valor.
    - `typeof` (tipo de)
    - `instanceof` (instancia de)
 
-7. **Operador Ternario**: Es una forma abreviada de una declaración `if-else`.
+### 7. **Operador Ternario**: Es una forma abreviada de una declaración `if-else`.
    - `condición ? expresión1 : expresión2`
 
-8. **Operadores de Cadena**: Operan sobre cadenas de texto.
+### 8. **Operadores de Cadena**: Operan sobre cadenas de texto.
    - `+` (concatenación)
    - `+=` (asignación y concatenación)
 
-**NOTA OPERADORES**: `++` y `--`
+#### **NOTA OPERADORES**: `++` y `--`
 
 La diferencia entre `variable++` y `++variable` radica en **CUANDO** se incrementa el valor de la `variable`:
 
