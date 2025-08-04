@@ -98,7 +98,8 @@ Estos son los tipos básicos, aunque se pueden combinar y extender para casos m�
 ## OPERADORES
 En JavaScript, los Operadores se Utilizan para realizar Operaciones en Variables y Valores. Aquí están los principales tipos de operadores que te permiten manipular valores y realizar cálculos:
 
-### 1. **Operadores Aritméticos**: Realizan operaciones matemáticas.
+### 1. **Operadores Aritméticos**
+Realizan operaciones matemáticas.
    - `+` (suma)
    - `-` (resta)
    - `*` (multiplicación)
