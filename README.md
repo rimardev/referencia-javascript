@@ -799,4 +799,79 @@ elemento.removeEventListener('click', manejarClick);
 </html>
 ```
 
-La manipulación del DOM es fundamental para crear páginas web dinámicas e interactivas. Con estos métodos básicos puedes comenzar a modificar páginas web según las interacciones del usuario o eventos del sistema.
+
+************************************************************
+## LOCAL STORAGE
+
+### **Métodos Básicos**
+Desde JavaScript, puedes usar estos métodos:
+
+1. **Guardar datos**:
+   ```javascript
+   localStorage.setItem('clave', 'valor');
+   ```
+   Ejemplo:
+   ```javascript
+   localStorage.setItem('usuario', 'JuanPerez');
+   ```
+
+2. **Obtener datos**:
+   ```javascript
+   const valor = localStorage.getItem('clave');
+   ```
+   Ejemplo:
+   ```javascript
+   const usuario = localStorage.getItem('usuario'); // Devuelve 'JuanPerez'
+   ```
+
+3. **Eliminar un dato**:
+   ```javascript
+   localStorage.removeItem('clave');
+   ```
+
+4. **Limpiar todo**:
+   ```javascript
+   localStorage.clear();
+   ```
+
+5. **Ver cantidad de elementos**:
+   ```javascript
+   const cantidad = localStorage.length;
+   ```
+
+---
+
+### **Características Importantes**
+- **Almacena hasta 5-10 MB** (depende del navegador).
+- **Solo strings**: Para guardar objetos o arrays, usa `JSON.stringify()` y `JSON.parse()`:
+  ```javascript
+  // Guardar objeto
+  const user = { nombre: 'Ana', edad: 25 };
+  localStorage.setItem('user', JSON.stringify(user));
+
+  // Leer objeto
+  const userData = JSON.parse(localStorage.getItem('user'));
+  ```
+- **Accesible solo desde el mismo dominio/origen** (por seguridad).
+- **No reactivo**: Si los datos cambian, no notifica a otras pestañas (para eso usa `window.addEventListener('storage', callback)`).
+
+---
+
+### **Ejemplo Práctico**
+```javascript
+// Guardar datos
+localStorage.setItem('theme', 'dark');
+
+// Recuperar datos
+const theme = localStorage.getItem('theme'); // 'dark'
+
+// Eliminar
+localStorage.removeItem('theme');
+
+// Verificar si existe una clave
+if (!localStorage.getItem('theme')) {
+  console.log('No hay tema guardado');
+}
+```
+
+
